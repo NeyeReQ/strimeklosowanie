@@ -85,7 +85,7 @@ const lanes=[
 const shards=[
 [{name:'Prędkość ataku',icon:'StatModsAttackSpeedIcon.png'},{name:'Przyspieszenie umiejętności',icon:'StatModsCDRScalingIcon.png'},{name:'Siła adaptacyjna',icon:'StatModsAdaptiveForceIcon.png'}],
 [{name:'Siła adaptacyjna',icon:'StatModsAdaptiveForceIcon.png'},{name:'Prędkość ruchu',icon:'StatModsMovementSpeedIcon.png'},{name:'Zdrowie skalujące',icon:'StatModsHealthScalingIcon.png'}],
-[{name:'Zdrowie skalujące',icon:'StatModsHealthScalingIcon.png'},{name:'Pancerz',icon:'StatModsArmorIcon.png'},{name:'Odporność na magię',icon:'StatModsMagicResIcon.png'}]
+[{name:'Zdrowie',icon:'StatModsHealthPlusIcon.png'},{name:'Wytrwałość i odporność na spowolnienia',icon:'StatModsTenacityIcon.png'},{name:'Zdrowie skalujące',icon:'StatModsHealthScalingIcon.png'}]
 ];
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
@@ -130,7 +130,7 @@ if(anim)animate(key);renderOne(key);
 if(count){state.rolls++;$('#roll-count').textContent=state.rolls+(state.rolls===1?' losowanie':state.rolls<5?' losowania':' losowań')}
 $('#copy').disabled=!Object.values(state.current).every(Boolean)
 }
-function rollAll(count=true){if(!state.champions.length)return;['lane','champion','runes','build'].forEach(k=>{if(!state.locks[k]||!state.current[k])rollOne(k,count,count)});if(count)toast('Nowy zestaw gotowy. Powodzenia na Rifcie!')}
+function rollAll(count=true){if(!state.champions.length)return;['lane','champion','runes','build'].forEach(k=>{if(!state.locks[k]||!state.current[k])rollOne(k,count,false)});if(count){state.rolls++;$('#roll-count').textContent=state.rolls+(state.rolls===1?' losowanie':state.rolls<5?' losowania':' losowań');toast('Nowy zestaw gotowy. Powodzenia na Rifcie!')}}
 function renderOne(k){const x=state.current[k];if(!x)return;if(k==='lane')renderLane(x);if(k==='champion')renderChampion(x);if(k==='runes')renderRunes(x);if(k==='build')renderBuild(x)}
 function renderLane(x){$('#lane-name').textContent=x.name.toLocaleUpperCase('pl');$('#lane-desc').textContent=x.description;$('#lane-symbol').textContent=x.symbol}
 function renderChampion(x){const img=$('#portrait');img.src=champUrl(x);img.alt=x.name;img.hidden=false;$('#portrait-placeholder').hidden=true;$('#champion-name').textContent=x.name;$('#champion-title').textContent=x.title||'';$('#champion-tags').textContent=(x.tags||[]).map(t=>t.toUpperCase()).join(' · ')||'CHAMPION POOL · ALL';$('#champion-backdrop').style.backgroundImage='url("'+CDN+'/cdn/img/champion/splash/'+x.id+'_0.jpg")';$('#champion-card').classList.add('has-champion')}
