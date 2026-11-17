@@ -118,10 +118,10 @@ button:disabled{cursor:not-allowed}
   <h2 id="roll-title">Ładowanie Rift...</h2>
   <p id="roll-subtitle">Synchronizujemy aktualną bazę bohaterów, run i przedmiotów.</p>
   <div class="roll-preview-grid" id="roll-preview-grid">
-    <div class="roll-preview-card"><span class="roll-preview-type">01 / POSITION</span><div class="roll-preview-body"><div class="roll-preview-icon" id="spin-lane-visual"><span>⌖</span></div><div><strong id="spin-lane-name">Ładowanie...</strong><small id="spin-lane-meta">SUMMONER'S RIFT</small></div></div></div>
-    <div class="roll-preview-card"><span class="roll-preview-type">02 / CHAMPION</span><div class="roll-preview-body"><div class="roll-preview-icon" id="spin-champion-visual"><span>?</span></div><div><strong id="spin-champion-name">Pełna pula</strong><small id="spin-champion-meta">CHAMPION SELECT</small></div></div></div>
-    <div class="roll-preview-card"><span class="roll-preview-type">03 / RUNES</span><div class="roll-preview-body"><div class="roll-preview-icon rune-preview" id="spin-runes-visual"><span>◈</span></div><div><strong id="spin-runes-name">Ścieżka run</strong><small id="spin-runes-meta">PRIMARY / SECONDARY</small></div></div></div>
-    <div class="roll-preview-card"><span class="roll-preview-type">04 / BUILD</span><div class="roll-preview-body"><div class="roll-preview-icon" id="spin-build-visual"><span>▦</span></div><div><strong id="spin-build-name">Przedmioty</strong><small id="spin-build-meta">ITEM BUILD</small></div></div></div>
+    <div class="roll-preview-card" data-preview="lane"><span class="roll-preview-type">01 / POSITION</span><div class="roll-preview-body"><div class="roll-preview-icon" id="spin-lane-visual"><span>⌖</span></div><div><strong id="spin-lane-name">Ładowanie...</strong><small id="spin-lane-meta">SUMMONER'S RIFT</small></div></div></div>
+    <div class="roll-preview-card" data-preview="champion"><span class="roll-preview-type">02 / CHAMPION</span><div class="roll-preview-body"><div class="roll-preview-icon" id="spin-champion-visual"><span>?</span></div><div><strong id="spin-champion-name">Pełna pula</strong><small id="spin-champion-meta">CHAMPION SELECT</small></div></div></div>
+    <div class="roll-preview-card" data-preview="runes"><span class="roll-preview-type">03 / RUNES</span><div class="roll-preview-body"><div class="roll-preview-icon rune-preview" id="spin-runes-visual"><span>◈</span></div><div><strong id="spin-runes-name">Ścieżka run</strong><small id="spin-runes-meta">PRIMARY / SECONDARY</small></div></div></div>
+    <div class="roll-preview-card" data-preview="build"><span class="roll-preview-type">04 / BUILD</span><div class="roll-preview-body"><div class="roll-preview-icon" id="spin-build-visual"><span>▦</span></div><div><strong id="spin-build-name">Przedmioty</strong><small id="spin-build-meta">ITEM BUILD</small></div></div></div>
   </div>
   <div class="roll-progress-wrap"><div class="roll-progress-track"><span id="roll-progress"></span></div><div class="roll-progress-meta"><span id="roll-step">INITIALIZING DATA...</span><b id="roll-percent">0%</b></div></div>
   <div class="roll-screen-bottom"><span><i class="roll-bottom-dot"></i> RIOT DATA DRAGON CONNECTION</span><span>PLEASE STAY IN THE RIFT</span></div>
@@ -150,7 +150,7 @@ const pick=a=>a[Math.floor(Math.random()*a.length)];
 const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
 const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const runeUrl=p=>CDN+'/cdn/img/'+String(p||'').replace(/^\//,'');
-const itemUrl=image=>{const full=typeof image==='string'?image:(image&&image.full)||'';const file=String(full).trim();return CDN+'/cdn/'+state.version+'/img/item/'+(/\\.(png|jpe?g|webp)$/i.test(file)?file:file+'.png')};
+const itemUrl=image=>{const full=typeof image==='string'?image:(image&&image.full)||'';const file=String(full).trim();const hasExtension=['.png','.jpg','.jpeg','.webp'].some(ext=>file.toLowerCase().endsWith(ext));return CDN+'/cdn/'+state.version+'/img/item/'+(hasExtension?file:file+'.png')};
 const champUrl=c=>CDN+'/cdn/'+state.version+'/img/champion/'+c.image.full;
 async function json(url){const r=await fetch(url,{cache:'force-cache'});if(!r.ok)throw Error('HTTP '+r.status+' '+url);return r.json()}
 async function localeFile(file){try{return await json(CDN+'/cdn/'+state.version+'/data/'+LOCALE+'/'+file+'.json')}catch(e){console.warn('Fallback to en_US:',file,e);return json(CDN+'/cdn/'+state.version+'/data/en_US/'+file+'.json')}}
