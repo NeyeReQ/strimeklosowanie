@@ -284,9 +284,11 @@ function rollBuild(){
 const champion=state.current.champion,lane=state.current.lane,profile=buildProfile(champion,lane);
 const pool=state.items.filter(buildItem);
 if(!pool.length)return[];
+const boots=pool.filter(item=>(item.tags||[]).includes('Boots'));
+const regularPool=pool.filter(item=>(item.tags||[]).includes('Boots')===false);
 const usedIds=new Set(),usedGroups=new Set(),out=[];
 const canUse=item=>!usedIds.has(String(item.id||item.name))&&(!item.group||!usedGroups.has(String(item.group)));
-const add=(slot,source=pool)=>{
+const add=(slot,source=regularPool)=>{
 const available=source.filter(item=>canUse(item)&&isBuildSlotCandidate(item,profile,slot));
 const fallback=source.filter(canUse);
 const selected=weightedBuildPick(available.length?available:fallback,profile,slot);
@@ -295,10 +297,10 @@ out.push(selected);usedIds.add(String(selected.id||selected.name));if(selected.g
 return true;
 };
 // Jeden slot na buty, dopasowane do profilu postaci, zamiast losowych sześciu itemów.
-add('boots',pool.filter(item=>(item.tags||[]).includes('Boots')));
+add('boots',boots);
 // Build ma zachować losowość, ale jego skład przypomina normalny zestaw: rdzeń, użyteczność, obrona i elastyczny slot.
-['core','core','utility','defense','flex'].forEach(slot=>add(slot));
-while(out.length<6&&add('flex')){}
+['core','core','utility','defense','flex'].forEach(slot=>add(slot,regularPool));
+while(out.length<6&&add('flex',regularPool)){}
 return shuffle(out.slice(0,6));
 }
 function animate(key){const node=$('#'+({lane:'lane-card',champion:'champion-card',runes:'rune-card',build:'build-card'}[key]));node.classList.remove('rolling');void node.offsetWidth;node.classList.add('rolling');setTimeout(()=>node.classList.remove('rolling'),650)}
