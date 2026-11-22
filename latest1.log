@@ -1,0 +1,980 @@
+[15:34:14] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[15:34:14] [main/INFO]: Mappings not present!
+[15:34:14] [ForkJoinPool-1-worker-16/WARN]: Mod punchy uses the version 3.2b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '2b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:34:14] [main/WARN]: Warnings were found!
+ - Mod 'Polytone' (polytone) 26.3-6.8.6 recommends version 26.2-1.11.0 or later of nautilus_studio, which is missing!
+	 - You should install version 26.2-1.11.0 or later of nautilus_studio for the optimal experience.
+[15:34:14] [main/INFO]: Loading 215 mods:
+	- a-little-furniture-mod 1.11.1
+	- accurateblockplacement 1.4.8+mc-26.3
+	- almanac 1.26.11.1
+	   \-- dungeonconfig 1.26.11.1
+	- architectury 22.0.5
+	- armor-hider 0.14.6+26.3
+	- arsenal_textures 1.0.0+26.3
+	- audioplayer 2.5.1+26.3
+	   |-- admiral 0.4.10+26.2
+	   |-- fabric-api-base 2.0.6+fcdff87f02
+	   |-- fabric-command-api-v2 3.1.2+fcdff87f02
+	   |-- fabric-lifecycle-events-v1 4.1.9+ffef5f6702
+	   \-- fabric-permission-api-v1 1.0.8+fcdff87f02
+	- automobility 1.3.1+26.3-fabric
+	   \-- de_javagl_obj 0.4.0
+	- badoptimizations 2.4.1
+	- baguettelib 2.0.8
+	- balm 26.3.0.3
+	   \-- kuma_api 26.3.0.1
+	- betterblockentities 1.3.9+mc26.3
+	- betterf3 20.0.0
+	- bobby 5.2.16+mc26.3
+	   |-- com_typesafe_config 1.4.2
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   \-- org_spongepowered_configurate-hocon 4.1.2
+	- bobbyshare 1.4.0+mc26.3
+	- bridgingmod 2.7.0+26.3
+	- camerapture 1.10.15
+	   |-- dev_matrixlab_webp4j_webp4j-core 2.1.1
+	   \-- tapestry 1.1.3
+	- chaoschatplus 1.1.1
+	- chaosranks 1.0.2
+	- chaostablist 1.2.0
+	- chat_heads 1.3.2
+	- cinematic_respawn 1.5.0
+	- cloth-config 26.3.159
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.85
+	- continuity 3.0.1+26.3
+	- controllable 0.26.2
+	- crash_assistant 1.11.14
+	- creativecore 2.14.24
+	   \-- net_neoforged_bus 7.2.0
+	- diorama 0.10.2+26.3
+	- displaydelight 1.8.5-mc26.3
+	   \-- folk_sisby_kaleido-config 0.3.3+1.3.2
+	- dreamdisplays 1.10.9
+	- easy_npc 7.18.0
+	- easy_npc_bundle 7.18.0
+	- easy_npc_config_ui 7.18.0
+	- ee 26.3.0
+	- emotecraft 3.5.0-b.build.179
+	   |-- com_plasmoverse_concentus 1.0.0
+	   |-- org_redlance_emotecraftlibrary_game-sdk 2.4.0
+	   |-- org_redlance_platformtools_common 4.2.2
+	   |-- org_redlance_platformtools_referer 4.2.2
+	   \-- translationfallbacks 1.2.0+mc.26.1-snapshot-10
+	- entity_model_features 3.3.12
+	- entity_texture_features 7.2.7
+	- entityculling 1.11.3
+	   |-- transition 1.0.26
+	   \-- trender 1.0.17
+	- eunomia 0.3.15+26.3
+	- fabric-api 0.166.2+26.3
+	   |-- fabric-advancement-api-v1 1.0.1+38c7a2d55d
+	   |-- fabric-api-lookup-api-v1 2.0.24+3434d6d95d
+	   |-- fabric-biome-api-v1 20.2.0+423307765d
+	   |-- fabric-block-api-v1 3.1.0+0ae6f9115d
+	   |-- fabric-block-getter-api-v2 2.0.9+3434d6d95d
+	   |-- fabric-content-registries-v0 15.0.7+74ed1ea55d
+	   |-- fabric-convention-tags-v2 4.10.5+187b64905d
+	   |-- fabric-crash-report-info-v1 1.0.7+fcdff87f5d
+	   |-- fabric-creative-tab-api-v1 5.0.22+fcdff87f5d
+	   |-- fabric-data-attachment-api-v1 2.2.35+af2d4d095d
+	   |-- fabric-data-generation-api-v1 27.4.3+187b64905d
+	   |-- fabric-debug-api-v1 1.0.5+5af7744b5d
+	   |-- fabric-dimensions-v1 5.1.20+5af7744b5d
+	   |-- fabric-entity-events-v1 6.0.4+3434d6d95d
+	   |-- fabric-events-interaction-v0 5.3.10+b9b88df45d
+	   |-- fabric-game-rule-api-v1 4.0.10+3434d6d95d
+	   |-- fabric-item-api-v1 14.8.1+8f511c9f5d
+	   |-- fabric-key-mapping-api-v1 2.0.8+3434d6d95d
+	   |-- fabric-loot-api-v3 4.0.9+4068fd645d
+	   |-- fabric-menu-api-v1 2.0.31+ed66f0a35d
+	   |-- fabric-message-api-v1 7.1.0+3e5b46335d
+	   |-- fabric-model-loading-api-v1 8.1.1+54bb04825d
+	   |-- fabric-networking-api-v1 6.4.1+c58129785d
+	   |-- fabric-object-builder-api-v1 24.1.13+e2f63d3e5d
+	   |-- fabric-particles-v1 5.0.28+3434d6d95d
+	   |-- fabric-recipe-api-v1 10.0.12+b9b88df45d
+	   |-- fabric-registry-sync-v0 8.0.5+1ca9f6365d
+	   |-- fabric-renderer-api-v1 17.0.19+79385d0b5d
+	   |-- fabric-renderer-indigo 9.1.27+b9d63e335d
+	   |-- fabric-rendering-fluids-v1 6.0.6+3434d6d95d
+	   |-- fabric-rendering-v1 27.3.1+28694c565d
+	   |-- fabric-resource-conditions-api-v1 6.2.1+fd3b1d565d
+	   |-- fabric-resource-loader-v0 3.3.27+4fc5413f5d
+	   |-- fabric-resource-loader-v1 3.1.0+5af7744b5d
+	   |-- fabric-screen-api-v1 5.2.4+48607d035d
+	   |-- fabric-serialization-api-v1 2.0.8+bb0d41e65d
+	   |-- fabric-sound-api-v1 2.0.7+3434d6d95d
+	   |-- fabric-tag-api-v1 2.1.11+fcdff87f5d
+	   |-- fabric-transfer-api-v1 8.0.27+c8357e785d
+	   \-- fabric-transitive-access-wideners-v1 8.1.17+e2f63d3e5d
+	- fabric-language-kotlin 1.14.2+kotlin.2.4.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.20.1
+	   \-- mixinextras 0.5.5
+	- fallingtree 25
+	- farmersdelight 26.3-3.6.30+refabricated
+	- ferritecore 9.0.0
+	- flashback 0.43.6
+	   |-- com_moulberry_mixinconstraints 1.0.8
+	   |-- lattice 2.2.0
+	   |-- mixinsquared 0.3.7-beta.1
+	   \-- org_apache_commons_commons-math3 3.6.1
+	- flashbackextras 1.3.0
+	- flashbacksettings 1.2.1+26.3
+	- forgeconfigapiport 26.3.1
+	   |-- com_electronwill_night-config_core 3.8.4
+	   \-- com_electronwill_night-config_toml 3.8.4
+	- framework 0.13.27
+	   |-- org_javassist_javassist 3.30.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- fzzy_config 0.7.7+fix3+26.3
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.7.0
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- java 25
+	- kaleidoscope_cookery 1.6.0.8-fabric+mc26.3
+	- kaleidoscope_end 1.1.0.2-fabric+mc26.3
+	- kaleidoscope_nether 1.1.15-fabric+mc26.3
+	- kaleidoscope_tavern 1.2.0.14-fabric+mc26.3
+	- konkrete 1.11.1
+	- lithium 0.26.3+mc26.3
+	- mctabletop 0.5.0
+	   \-- com_mctabletop_core 0.5.0
+	- mcwpaintings 1.1.0
+	- melody 1.0.17
+	- mezz_config 0.7.1
+	- minecraft 26.3
+	- modmenu 21.0.1
+	- mousetweaks 2.31
+	- multiview 0.5.1
+	- nanitelibrary 26.3.0.6
+	   \-- de_marhali_json5-java 3.0.0
+	- onlyjugs 1.8.1
+	- particle_core 0.3.3+fix1+26.2
+	   \-- conditional-mixin 0.5.1
+	- particular 1.6.1
+	- patpat 1.3.2+26.3+fabric
+	   \-- fabric-permissions-api-v0 0.7.0
+	- placeholder-api 3.1.0-beta.1+26.2
+	- player-revive 1.0.1
+	- player_animation_library 1.2.9+mc.26.3
+	   |-- org_redlance_common-utils_services 1.4.2
+	   |-- org_redlance_mochafloats_lexer 6.2.0
+	   |-- org_redlance_mochafloats_parser 6.2.0
+	   \-- org_redlance_mochafloats_runtime 6.2.0
+	- polytone 26.3-6.8.6
+	   |-- codecui 26.3-1.4.7
+	   |-- hollowpoint_nexp 1.2.1
+	   \-- net_objecthunter_exp4j 0.4.8
+	- punchy 3.2b
+	- punchy_moves 1.0.9
+	   |-- mixinextras 0.5.5
+	   \-- punchy_expressions 1.0.9
+	- relics_textures 1.0.0+26.3
+	- roughlyenoughitems 26.3.824
+	- roulettecasino 1.1.2
+	- rusticdelight 1.7.0
+	- saros_construction_mod 2.6
+	- saros_road_blocks_mod 5.14
+	- saros_road_signs_mod 4.20
+	- sarosneonblocks 1.1.0
+	- sdrp 26.3.0.1
+	   \-- dev_nanite_forks_discord-ipc 0.5.2
+	- shogi 26.3.0.3
+	   \-- shogi_api 26.3.0.3
+	- shulkerboxtooltip 5.4.3+26.3
+	- simplevoiceanimations 1.3.1+26.3
+	   |-- fabric-api-base 2.0.6+fcdff87f02
+	   \-- fabric-lifecycle-events-v1 4.1.9+ffef5f6702
+	- sodium 0.9.2+mc26.3
+	   |-- fabric-api-base 2.0.6+fcdff87f02
+	   \-- fabric-lifecycle-events-v1 4.1.9+ffef5f6702
+	- spatial_gui 1.11.1
+	- stackrefill 6.2
+	- thatmakessense 0.3.0
+	- vitrail 0.13.0-beta
+	- vitrail_player_fix 0.1.12-mc26.3
+	- voicechat 2.6.27+26.3
+	   |-- fabric-api-base 2.0.6+fcdff87f02
+	   |-- fabric-command-api-v2 3.1.2+fcdff87f02
+	   |-- fabric-lifecycle-events-v1 4.1.9+ffef5f6702
+	   |-- fabric-permission-api-v1 1.0.8+fcdff87f02
+	   \-- voicechat_api 2.6.27
+	- walljump 26.3-1.3.8-fabric
+	   \-- configlibtxf 26.3-2.0.5-fabric
+	- waystones 26.3.0.2
+	- wbcustomizer 1.0.2
+	- weatherglass 0.6.2+26.3-fabric
+	- yet_another_config_lib_v3 3.9.7+26.3-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- zoomify 2.17.0+mc26.3
+[15:34:18] [main/INFO]: Launching CrashAssistantApp (CrashAssistant-fabric-26.2-26.3-1.11.14.jar)
+[15:34:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Neyer_/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:34:19] [CrashAssistantApp process logger/INFO]: CrashAssistantApp process successfully started.
+[15:34:19] [main/INFO]: Config version: 6
+[15:34:19] [main/INFO]: BadOptimizations config dump:
+[15:34:19] [main/INFO]: enable_toast_optimizations: true
+[15:34:19] [main/INFO]: ignore_mod_incompatibilities: false
+[15:34:19] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[15:34:19] [main/INFO]: enable_lightmap_caching: true
+[15:34:19] [main/INFO]: enable_particle_manager_optimization: true
+[15:34:19] [main/INFO]: enable_entity_renderer_caching: true
+[15:34:19] [main/INFO]: log_config: true
+[15:34:19] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[15:34:19] [main/INFO]: config_version: 6
+[15:34:19] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[15:34:19] [main/INFO]: enable_block_entity_renderer_caching: true
+[15:34:19] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[15:34:19] [main/INFO]: enable_entity_flag_caching: true
+[15:34:19] [main/INFO]: ignore_mod_cache_hooks: false
+[15:34:19] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[15:34:19] [main/INFO]: enable_sky_color_caching: true
+[15:34:19] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[15:34:19] [main/INFO]: show_f3_text: true
+[15:34:19] [main/INFO]: Disabling enable_lightmap_caching because mod "polytone" is incompatible with it (built-in)
+[15:34:19] [main/INFO]: Disabling enable_sky_color_caching because mod "polytone" is incompatible with it (built-in)
+[15:34:19] [main/WARN]: Reference map 'baguettelib.refmap.json' for baguettelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'baguettelib.refmap.json' for baguettelib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'controllable.refmap.json' for controllable.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'controllable.refmap.json' for controllable.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'easy_npc.refmap.json' for easy_npc.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'framework.refmap.json' for framework.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'framework.refmap.json' for framework.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/INFO]: Initializing Kaleidoscope Nether Mixins
+[15:34:19] [main/INFO]: Loaded configuration file for Lithium: 170 options available, 0 override(s) found.
+[15:34:19] [main/WARN]: Reference map 'particular.refmap.json' for particular.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'particular.refmap.json' for particular.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'patpat.refmap.json' for patpat.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'patpat.refmap.json' for patpat-controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'patpat.refmap.json' for patpat-geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/INFO]: Loaded configuration file for Sodium: 37 options available, 1 override(s) found
+[15:34:19] [main/WARN]: Reference map 'spatial-gui.refmap.json' for spatial-gui.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:34:19] [main/WARN]: Error loading class: com/sshakusora/riautomobility/content/LorryCargoContainer (java.lang.ClassNotFoundException: com/sshakusora/riautomobility/content/LorryCargoContainer)
+[15:34:19] [main/WARN]: Error loading class: com/sshakusora/riautomobility/network/SeatSwitchNetworking (java.lang.ClassNotFoundException: com/sshakusora/riautomobility/network/SeatSwitchNetworking)
+[15:34:20] [main/WARN]: Error loading class: mezz/jei/gui/overlay/ingredients/IngredientGrid (java.lang.ClassNotFoundException: mezz/jei/gui/overlay/ingredients/IngredientGrid)
+[15:34:20] [main/WARN]: Error loading class: mezz/jei/gui/overlay/ingredients/IngredientGridWithNavigation (java.lang.ClassNotFoundException: mezz/jei/gui/overlay/ingredients/IngredientGridWithNavigation)
+[15:34:20] [main/WARN]: Error loading class: mezz/jei/gui/overlay/IngredientListOverlay (java.lang.ClassNotFoundException: mezz/jei/gui/overlay/IngredientListOverlay)
+[15:34:20] [main/WARN]: Error loading class: mezz/jei/common/input/MouseUtil (java.lang.ClassNotFoundException: mezz/jei/common/input/MouseUtil)
+[15:34:20] [main/WARN]: Error loading class: mezz/jei/gui/PageNavigation (java.lang.ClassNotFoundException: mezz/jei/gui/PageNavigation)
+[15:34:20] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/map/UpdateChunkFromServerTask (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/map/UpdateChunkFromServerTask)
+[15:34:20] [main/WARN]: Error loading class: com/minecraftserverzone/mobhealthbar/gui/HpBar (java.lang.ClassNotFoundException: com/minecraftserverzone/mobhealthbar/gui/HpBar)
+[15:34:20] [main/WARN]: Error loading class: net/irisshaders/iris/layer/OuterWrappedRenderType (java.lang.ClassNotFoundException: net/irisshaders/iris/layer/OuterWrappedRenderType)
+[15:34:20] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/DefaultChunkRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/DefaultChunkRenderer)
+[15:34:20] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager)
+[15:34:20] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/SodiumWorldRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/SodiumWorldRenderer)
+[15:34:20] [main/WARN]: Error loading class: net/irisshaders/iris/pathways/HandRenderer (java.lang.ClassNotFoundException: net/irisshaders/iris/pathways/HandRenderer)
+[15:34:20] [main/WARN]: Error loading class: fuzs/swordblockingmechanics/common/handler/SwordBlockingHandler (java.lang.ClassNotFoundException: fuzs/swordblockingmechanics/common/handler/SwordBlockingHandler)
+[15:34:20] [main/WARN]: Error loading class: fuzs/swordblockingmechanics/common/client/handler/FirstPersonRenderingHandler (java.lang.ClassNotFoundException: fuzs/swordblockingmechanics/common/client/handler/FirstPersonRenderingHandler)
+[15:34:20] [main/WARN]: Error loading class: net/bettercombat/logic/WeaponRegistry (java.lang.ClassNotFoundException: net/bettercombat/logic/WeaponRegistry)
+[15:34:20] [main/WARN]: Error loading class: dev/tr7zw/notenoughanimations/logic/PlayerTransformer (java.lang.ClassNotFoundException: dev/tr7zw/notenoughanimations/logic/PlayerTransformer)
+[15:34:20] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/client/renderer/BackpackLayer (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/client/renderer/BackpackLayer)
+[15:34:20] [main/WARN]: Error loading class: strm/touchnmotion/TouchNMotionHook (java.lang.ClassNotFoundException: strm/touchnmotion/TouchNMotionHook)
+[15:34:20] [main/WARN]: Error loading class: strm/touchnmotion/TouchNMotionHook$Drawn (java.lang.ClassNotFoundException: strm/touchnmotion/TouchNMotionHook$Drawn)
+[15:34:20] [main/WARN]: Error loading class: org/tastytrash/spatialGUI/render/InventoryRenderer (java.lang.ClassNotFoundException: org/tastytrash/spatialGUI/render/InventoryRenderer)
+[15:34:20] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [vitrail]) disables it and children
+[15:34:20] [main/WARN]: Error loading class: com/wildfire/client/render/GenderArmorLayer (java.lang.ClassNotFoundException: com/wildfire/client/render/GenderArmorLayer)
+[15:34:20] [main/WARN]: Error loading class: com/wildfire/client/physics/BreastPhysics (java.lang.ClassNotFoundException: com/wildfire/client/physics/BreastPhysics)
+[15:34:20] [main/WARN]: Error loading class: com/wildfire/client/render/GenderRenderState (java.lang.ClassNotFoundException: com/wildfire/client/render/GenderRenderState)
+[15:34:20] [main/WARN]: Error loading class: com/wildfire/client/WildfireClientHelper (java.lang.ClassNotFoundException: com/wildfire/client/WildfireClientHelper)
+[15:34:20] [main/WARN]: Error loading class: com/geckolib/renderer/GeoArmorRenderer (java.lang.ClassNotFoundException: com/geckolib/renderer/GeoArmorRenderer)
+[15:34:20] [main/WARN]: Error loading class: dev/tr7zw/waveycapes/renderlayers/CustomCapeRenderLayer (java.lang.ClassNotFoundException: dev/tr7zw/waveycapes/renderlayers/CustomCapeRenderLayer)
+[15:34:20] [main/WARN]: Error loading class: top/theillusivec4/curios/client/CuriosLayer (java.lang.ClassNotFoundException: top/theillusivec4/curios/client/CuriosLayer)
+[15:34:20] [main/WARN]: Error loading class: dev/emi/trinkets/TrinketFeatureRenderer (java.lang.ClassNotFoundException: dev/emi/trinkets/TrinketFeatureRenderer)
+[15:34:20] [main/WARN]: Error loading class: io/wispforest/accessories/client/AccessoriesRenderLayer (java.lang.ClassNotFoundException: io/wispforest/accessories/client/AccessoriesRenderLayer)
+[15:34:20] [main/WARN]: Error loading class: dev/kikugie/elytratrims/render/ETRenderingActionsKt (java.lang.ClassNotFoundException: dev/kikugie/elytratrims/render/ETRenderingActionsKt)
+[15:34:20] [main/INFO]: Searching for graphics cards...
+[15:34:21] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5070', adapterType=0x0000231B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_81cce6c273d405a6\nvoglv64.dll', openglIcdVersion=32.0.16.2124}
+[15:34:21] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[15:34:21] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[15:34:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[15:34:22] [main/WARN]: Missing translation key for rename: attribute.name.nameplate_distance
+[15:34:22] [main/WARN]: Missing translation key for rename: subtitles.entity.sulfur_cube.squish
+[15:34:22] [main/WARN]: Missing translation key for rename: key.keyboard.new
+[15:34:22] [main/WARN]: Missing translation key for rename: key.keyboard.save
+[15:34:22] [Datafixer Bootstrap #0/INFO]: 308 Datafixer optimizations took 251 milliseconds
+[15:34:26] [Render thread/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[15:34:26] [Render thread/INFO]: Setting user: xNeyeRx
+[15:34:27] [Render thread/INFO]: Registering mod blocks...
+[15:34:27] [Render thread/INFO]: Registering mod items...
+[15:34:27] [Render thread/INFO]: Registering mod recipes...
+[15:34:27] [Render thread/INFO]: Registering mod entities...
+[15:34:27] [Render thread/INFO]: Registering A Little Furniture creative tab...
+[15:34:27] [Render thread/INFO]: Registering mod block entities...
+[15:34:27] [Render thread/INFO]: Registering mod menus...
+[15:34:27] [Render thread/INFO]: A Little Furniture Mod initialized!
+[15:34:27] [Render thread/INFO]: Almanac initialized
+[15:34:27] [Render thread/INFO]: [Zannagh's Armor Hider] - Initializing...
+[15:34:27] [Render thread/INFO]: [Zannagh's Armor Hider] - Initialized!
+[15:34:28] [Render thread/INFO]: BaguetteLib loaded on Fabric!
+[15:34:28] [Render thread/INFO]: Mod proxy balm:permissions resolved as net.blay09.mods.balm.fabric.platform.compatibility.permissions.internal.FabricPermissionsAPIIntegration@687bdd05
+[15:34:28] [Render thread/INFO]: Initializing Bobby Share (Loading config)...
+[15:34:28] [Render thread/INFO]: Successfully loaded configuration file.
+[15:34:28] [Render thread/INFO]: Loading Collective version 8.85.
+[15:34:28] [Collective Update Checker/WARN]: [Update] Collective has an update available: 8.85 -> 8.87
+[15:34:28] [Render thread/INFO]: Reflections took 71 ms to scan 1 urls, producing 8 keys and 83 values
+[15:34:28] [Render thread/INFO]: Initialized Display Delight 😋
+[15:34:28] [Render thread/INFO]: Initializing server-side mod...
+[15:34:29] [Render thread/INFO]: Server-side initialization complete.
+[15:34:29] [Render thread/INFO]: Initializing Easy NPC (Fabric) ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Debug Manager ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Constants ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Configuration ...
+[15:34:29] [Render thread/INFO]: [Config] Registering common configuration ...
+[15:34:29] [Render thread/INFO]: Initialized 741 supported and 261 unsupported entity types from defaults.
+[15:34:29] [Render thread/INFO]: [Config] Registering client configuration ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Common Data Files ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Common data folders ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Entity Data Serializers ...
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ActionEventSet with id easy_npc:actioneventset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer CompoundTag with id easy_npc:compoundtag using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer VisibilityConditionSet with id easy_npc:visibilityconditionset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ProjectileData with id easy_npc:projectiledata using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer PendingActionSet with id easy_npc:pendingactionset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer StateDataSet with id easy_npc:statedataset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer DialogDataSet with id easy_npc:dialogdataset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer DisplayAttributeDataSet with id easy_npc:displayattributedataset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer EntityAttributes with id easy_npc:entityattributes using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ProgressionData with id easy_npc:progressiondata using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer MerchantOffers with id easy_npc:merchantoffers using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ModelPose with id easy_npc:modelpose using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ModelAnimationData with id easy_npc:modelanimationdata using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer RootModelData with id easy_npc:rootmodeldata using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ObjectiveDataSet with id easy_npc:objectivedataset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer CustomPosition with id easy_npc:customposition using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer Profession with id easy_npc:profession using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer RenderDataEntry with id easy_npc:renderdataentry using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer CustomScale with id easy_npc:customscale using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer SkinDataEntry with id easy_npc:skindataentry using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer SkinType with id easy_npc:skintype using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer SkinUUID with id easy_npc:skinuuid using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer SoundDataSet with id easy_npc:sounddataset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer TargetedEntitySet with id easy_npc:targetedentityset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer TargetedPlayerSet with id easy_npc:targetedplayerset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer TradingDataSet with id easy_npc:tradingdataset using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer TradingType with id easy_npc:tradingtype using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer UUID with id easy_npc:uuid using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ModelVisibilityDataCapable with id easy_npc:modelvisibilitydatacapable using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ModelRotationDataCapable with id easy_npc:modelrotationdatacapable using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ModelPositionDataCapable with id easy_npc:modelpositiondatacapable using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: Registered entity data serializer ModelScaleDataCapable with id easy_npc:modelscaledatacapable using FabricTrackedDataRegistry
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Compatibility Handler ...
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Compat Handler ...
+[15:34:29] [Render thread/INFO]: [Compat Manager] Epic Fight mod with id 'epicfight' loaded: false
+[15:34:29] [Render thread/INFO]: [Compat Manager] Cobblemon mod with id 'cobblemon' loaded: false
+[15:34:29] [Render thread/INFO]: [Compat Manager] Easy Model Entities mod with id 'easy_model_entities' loaded: false
+[15:34:29] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Entity Types ...
+[15:34:30] [Render thread/INFO]: Registered 32 raw entity types.
+[15:34:30] [Render thread/INFO]: Registered 37 NPC entity types.
+[15:34:30] [Render thread/INFO]: Registered 4 custom entity types.
+[15:34:30] [Render thread/INFO]: Registered 2 projectile entity types.
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Blocks ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Blocks Entities ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Configuration Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Test Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Consumable Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Block Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Weapon Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Spawn Egg Items ...
+[15:34:30] [Render thread/INFO]: Registered 37 NPC spawn eggs.
+[15:34:30] [Render thread/INFO]: Registered 4 custom spawn eggs.
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Command register event ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Server Events ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Registering Server Entity Events ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Menu Handler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Menu Types ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Menu Types ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Mod Data Components ...
+[15:34:30] [Render thread/INFO]: Easy NPC Data Components ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Network Handler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register NetworkHandler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Network Handler ...
+[15:34:30] [Render thread/INFO]: Registering network messages for SERVER side ...
+[15:34:30] [Render thread/INFO]: Registering client network handler ...
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc:open_menu_callback_message] with net.minecraft.network.codec.StreamCodec$1@56a7c4bb
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc:sync_data] with net.minecraft.network.codec.StreamCodec$1@5175000
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc:speech_bubble] with net.minecraft.network.codec.StreamCodec$1@7d0d5f90
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc:highlight_easy_npc] with net.minecraft.network.codec.StreamCodec$1@4abe9a97
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc:update_easy_npc_visibility] with net.minecraft.network.codec.StreamCodec$1@13ca7315
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc:shoulder_npc] with net.minecraft.network.codec.StreamCodec$1@5c8b73bb
+[15:34:30] [Render thread/INFO]: Registering server network handler ...
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc:trigger_action_event] with net.minecraft.network.codec.StreamCodec$1@dc1a2f9
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc:dialog_button_action] with net.minecraft.network.codec.StreamCodec$1@5b53ddb5
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc:open_menu_message] with net.minecraft.network.codec.StreamCodec$1@2a8f47bc
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc:request_data_sync] with net.minecraft.network.codec.StreamCodec$1@64f81867
+[15:34:30] [Render thread/INFO]: Registering client network handler for Server -> Client messages.
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Client Network Message Handler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Argument Types ...
+[15:34:30] [Render thread/INFO]: Loading Easy NPC (Bundle) ...
+[15:34:30] [Render thread/INFO]: This bundle includes Easy NPC Core and Easy NPC Config UI
+[15:34:30] [Render thread/INFO]: Initializing Easy NPC: Config UI (Fabric) ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Debug Manager ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Constants ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Configuration Items ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Command register event ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Menu Types ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Menu Types ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Menu Handler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Server Network Handler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register NetworkHandler ...
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Network Handler ...
+[15:34:30] [Render thread/INFO]: Registering network messages for SERVER side ...
+[15:34:30] [Render thread/INFO]: Registering client network handler ...
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc_config_ui:preset_export_client] with net.minecraft.network.codec.StreamCodec$1@523577f4
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc_config_ui:open_menu_callback_message] with net.minecraft.network.codec.StreamCodec$1@1331930c
+[15:34:30] [Render thread/INFO]: Registering client payload type Type[id=easy_npc_config_ui:sync_data] with net.minecraft.network.codec.StreamCodec$1@3c1933ba
+[15:34:30] [Render thread/INFO]: Registering server network handler ...
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:add_objective] with net.minecraft.network.codec.StreamCodec$1@4b709d6c
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_action_event] with net.minecraft.network.codec.StreamCodec$1@76eeb03e
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_advanced_trading] with net.minecraft.network.codec.StreamCodec$1@284eade0
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_basic_trading] with net.minecraft.network.codec.StreamCodec$1@75ab3670
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_faction] with net.minecraft.network.codec.StreamCodec$1@107041cb
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_faction_color] with net.minecraft.network.codec.StreamCodec$1@added08
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_faction_relation] with net.minecraft.network.codec.StreamCodec$1@20d015b0
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:create_faction] with net.minecraft.network.codec.StreamCodec$1@bdba99b
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:remove_faction_entry] with net.minecraft.network.codec.StreamCodec$1@67e791c6
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_trading_offer_action] with net.minecraft.network.codec.StreamCodec$1@4d9b8d57
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_combat_attribute] with net.minecraft.network.codec.StreamCodec$1@18e9431b
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_projectile_data] with net.minecraft.network.codec.StreamCodec$1@34e07eca
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_display_attribute] with net.minecraft.network.codec.StreamCodec$1@25909a1c
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_entity_attribute] with net.minecraft.network.codec.StreamCodec$1@4e11ae8a
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_entity_base_attribute] with net.minecraft.network.codec.StreamCodec$1@93b8d39
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_environmental_attribute] with net.minecraft.network.codec.StreamCodec$1@5aac2ed5
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_home_position] with net.minecraft.network.codec.StreamCodec$1@4eefda7a
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_interaction_attribute] with net.minecraft.network.codec.StreamCodec$1@4ec52b85
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_inventory_attribute] with net.minecraft.network.codec.StreamCodec$1@5ca2756f
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_equipment_visibility] with net.minecraft.network.codec.StreamCodec$1@67d8da3a
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_animation_data] with net.minecraft.network.codec.StreamCodec$1@68ef9688
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_pose] with net.minecraft.network.codec.StreamCodec$1@353ffeab
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_position] with net.minecraft.network.codec.StreamCodec$1@729f3ed7
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_rotation] with net.minecraft.network.codec.StreamCodec$1@21623a51
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_scale] with net.minecraft.network.codec.StreamCodec$1@634ae96f
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_model_visibility] with net.minecraft.network.codec.StreamCodec$1@400c9d21
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_movement_attribute] with net.minecraft.network.codec.StreamCodec$1@4c7b5410
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_name] with net.minecraft.network.codec.StreamCodec$1@164cd587
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_named_pose] with net.minecraft.network.codec.StreamCodec$1@4ea5e7a4
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_pose] with net.minecraft.network.codec.StreamCodec$1@61b54f7c
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_position] with net.minecraft.network.codec.StreamCodec$1@454bb500
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_profession] with net.minecraft.network.codec.StreamCodec$1@54c968aa
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_renderer] with net.minecraft.network.codec.StreamCodec$1@3a67837c
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_skin] with net.minecraft.network.codec.StreamCodec$1@94b983
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_sound] with net.minecraft.network.codec.StreamCodec$1@12db64d1
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:change_trading_type] with net.minecraft.network.codec.StreamCodec$1@895a65a
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:export_preset] with net.minecraft.network.codec.StreamCodec$1@40118d8b
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:export_custom_preset_server] with net.minecraft.network.codec.StreamCodec$1@2c535082
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:export_world_preset] with net.minecraft.network.codec.StreamCodec$1@2b2c6e9f
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:import_preset] with net.minecraft.network.codec.StreamCodec$1@2682ea5f
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:spawn_preset] with net.minecraft.network.codec.StreamCodec$1@2362bdf
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_action_data_editor] with net.minecraft.network.codec.StreamCodec$1@6d645bb6
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_action_data_entry_editor] with net.minecraft.network.codec.StreamCodec$1@6da88533
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_action_condition_data_editor] with net.minecraft.network.codec.StreamCodec$1@25f8848a
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_action_condition_data_entry_editor] with net.minecraft.network.codec.StreamCodec$1@16c4ceea
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_trading_offer_action_editor] with net.minecraft.network.codec.StreamCodec$1@43b34819
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_trading_offer_action_entry_editor] with net.minecraft.network.codec.StreamCodec$1@a84f3a7
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_condition_data_editor] with net.minecraft.network.codec.StreamCodec$1@df067ee
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_condition_data_entry_editor] with net.minecraft.network.codec.StreamCodec$1@308d178a
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_configuration_screen] with net.minecraft.network.codec.StreamCodec$1@35114c30
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_dialog_button_editor] with net.minecraft.network.codec.StreamCodec$1@65a4ae4
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_dialog_editor] with net.minecraft.network.codec.StreamCodec$1@3d1642a0
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_menu_message] with net.minecraft.network.codec.StreamCodec$1@50975478
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_faction_editor] with net.minecraft.network.codec.StreamCodec$1@681c1667
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_factions_editor] with net.minecraft.network.codec.StreamCodec$1@540810ef
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_dialog_options_editor] with net.minecraft.network.codec.StreamCodec$1@2627c72c
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_dialog_text_editor] with net.minecraft.network.codec.StreamCodec$1@1cc3b3e0
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:remove_dialog_button] with net.minecraft.network.codec.StreamCodec$1@288c9a58
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:remove_dialog] with net.minecraft.network.codec.StreamCodec$1@61642dda
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:remove_npc] with net.minecraft.network.codec.StreamCodec$1@54ec9512
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:remove_objective] with net.minecraft.network.codec.StreamCodec$1@287c258b
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:reset_execution_limit] with net.minecraft.network.codec.StreamCodec$1@70c209cc
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:request_data_sync] with net.minecraft.network.codec.StreamCodec$1@3e595259
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:respawn_npc] with net.minecraft.network.codec.StreamCodec$1@5dbeea61
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:save_dialog_button] with net.minecraft.network.codec.StreamCodec$1@4818d139
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:save_dialog] with net.minecraft.network.codec.StreamCodec$1@63c4ce71
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:save_dialog_set] with net.minecraft.network.codec.StreamCodec$1@5f619b76
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:open_visibility_condition_editor] with net.minecraft.network.codec.StreamCodec$1@7ec16bc4
+[15:34:30] [Render thread/INFO]: Registering server payload type Type[id=easy_npc_config_ui:save_visibility_conditions] with net.minecraft.network.codec.StreamCodec$1@49e7a2e
+[15:34:30] [Render thread/INFO]: Registering client network handler for Server -> Client messages.
+[15:34:30] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Client Network Message Handler ...
+[15:34:30] [Render thread/INFO]: Eunomia shared library loaded
+[15:34:30] [Render thread/INFO]: Loaded config farmersdelight-common.json
+[15:34:30] [Render thread/INFO]: Loaded config farmersdelight-client.json
+[15:34:31] [Render thread/INFO]: Kaleidoscope End Initialized
+[15:34:31] [Render thread/INFO]: Kaleidoscope Nether initialized on Fabric
+[15:34:31] [Render thread/INFO]: [KONKRETE] Loading v1.11.1 in client-side mode on FABRIC!
+[15:34:31] [Render thread/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[15:34:31] [Render thread/INFO]: Block & Board loading: 33 games
+[15:34:31] [Render thread/INFO]: [MELODY] Loading v1.0.17 on FABRIC...
+[15:34:31] [Render thread/INFO]: [STDOUT]: [OnlyJugs] Initialized.
+[15:34:31] [Render thread/INFO]: I am quite particular about the effects I choose to add :3
+[15:34:31] [Render thread/INFO]: [PatPat]: PatPat Initialized
+[15:34:31] [Render thread/INFO]: Player Revive initialized!
+[15:34:32] [Render thread/INFO]: [REI] Config loaded
+[15:34:32] [Render thread/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
+[15:34:32] [Render thread/INFO]: [REI] Registered plugin provider ModREICommonPlugin [kaleidoscope_cookery] for REICommonPlugin
+[15:34:32] [Render thread/INFO]: [REI] Registered plugin provider ModREICommonPlugin [kaleidoscope_tavern] for REICommonPlugin
+[15:34:32] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[15:34:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[15:34:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[15:34:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[15:34:32] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[15:34:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[15:34:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[15:34:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[15:34:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[15:34:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[15:34:32] [Render thread/INFO]: Registering items for rusticdelight
+[15:34:32] [Render thread/INFO]: Registering blocks for rusticdelight
+[15:34:32] [Render thread/INFO]: Registering potions for rusticdelight
+[15:34:32] [Render thread/INFO]: Registering biome modifications for rusticdelight
+[15:34:32] [Render thread/INFO]: Registering placement modifiers for rusticdelight
+[15:34:32] [Render thread/INFO]: Registering item group for rusticdelight
+[15:34:32] [Render thread/INFO]: Initializing Saro's Road Blocks Mod for Fabric
+[15:34:32] [Render thread/INFO]: Registering blocks for saros_road_blocks_mod
+[15:34:32] [Render thread/INFO]: Registering block entities for saros_road_blocks_mod
+[15:34:32] [Render thread/INFO]: Registering items for saros_road_blocks_mod
+[15:34:32] [Render thread/INFO]: Registering item groups for saros_road_blocks_mod
+[15:34:32] [Render thread/INFO]: Registering menus for saros_road_blocks_mod
+[15:34:32] [Render thread/INFO]: Registering sounds for saros_road_blocks_mod
+[15:34:32] [Render thread/INFO]: Config loaded: debugBrush=false, debugRoadPlanner=false, sounds=true
+[15:34:32] [Render thread/INFO]: Saro's Road Blocks Mod initialized successfully!
+[15:34:32] [Render thread/INFO]: Initializing Saro's Road Signs Mod for Fabric
+[15:34:37] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[15:34:37] [Render thread/INFO]: Initializing That Makes Sense (Fabric)
+[15:34:37] [Render thread/INFO]: [voicechat] Compatibility version 20
+[15:34:37] [Render thread/INFO]: [voicechat] Loading plugins
+[15:34:37] [Render thread/INFO]: [voicechat] Loaded 3 plugin(s)
+[15:34:37] [Render thread/INFO]: [voicechat] Initializing plugins
+[15:34:37] [Render thread/INFO]: [voicechat] Initialized 3 plugin(s)
+[15:34:37] [Render thread/INFO]: [voicechat] Registering events for 'audioplayer'
+[15:34:37] [Render thread/INFO]: [voicechat] Registering events for 'flashback'
+[15:34:37] [Render thread/INFO]: [voicechat] Registering events for 'simplevoiceanimations'
+[15:34:38] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Loaded client config from file.
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Loaded 5 presets from file (active: -1).
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Armor Hider client initializing...
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registered client-side packet handlers.
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering render type factory: de.zannagh.armorhider.client.render.rendertype.RenderTypeFactory with priority 1000
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering render interceptors...
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering interceptor: de.zannagh.armorhider.client.render.interceptors.ArmorHiderItemRenderer
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering interceptor: de.zannagh.armorhider.client.render.interceptors.ArmorHiderCapeRenderer
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering interceptor: de.zannagh.armorhider.client.render.interceptors.ArmorHiderElytraRenderer
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering interceptor: de.zannagh.armorhider.client.render.interceptors.ArmorHiderOffhandRenderer
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering interceptor: de.zannagh.armorhider.client.render.interceptors.ArmorHiderHeadRenderer
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registering interceptor: de.zannagh.armorhider.client.render.interceptors.AhGeckoLibRenderer
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Registered render interceptors.
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Setting up compatibilities...
+[15:34:38] [Render thread/INFO]: [Zannagh's Armor Hider] - Compatibilities set up.
+[15:34:38] [Render thread/INFO]: [STDOUT]: [Automobility direct50] gate unsupported game/core
+[15:34:38] [Render thread/INFO]: Building config cache from user defined config file...
+[15:34:38] [Render thread/INFO]: Collecting API Entrypoint's...
+[15:34:38] [Render thread/INFO]: Registering alt renderers via each collected entrypoint...
+[15:34:38] [Render thread/INFO]: [BetterF3] Loading...
+[15:34:38] [Render thread/INFO]: [BetterF3] All done!
+[15:34:38] [Render thread/INFO]: Deserializing BridgingConfig from 'C:\Users\Neyer_\curseforge\minecraft\Instances\Chaos\config\bridgingmod.json'
+[15:34:39] [Render thread/INFO]: Starting Dream Displays...
+[15:34:39] [FFmpeg-prewarm/INFO]: Using binary: C:\Users\Neyer_\curseforge\minecraft\Instances\Chaos\.\dreamdisplays\ffmpeg\windows-x64-9.0\ffmpeg.exe.
+[15:34:39] [Render thread/INFO]: Initializing Easy NPC (Fabric-Client) ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Renderer ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Block Entity Renderers ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Entity Renders ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Entity Layer Definitions ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Entity Client Events ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Registering Client Entity Events ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Tabs ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register creative mod tabs ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Client Network Handler ...
+[15:34:39] [Render thread/INFO]: Registering network messages for CLIENT side ...
+[15:34:39] [Render thread/INFO]: Registering client network handler ...
+[15:34:39] [Render thread/INFO]: Registering server network handler ...
+[15:34:39] [Render thread/INFO]: Registering server network handler for Client -> Server messages.
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Server Network Message Handler ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Client Screens ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Client Event Handler ...
+[15:34:39] [Render thread/INFO]: Initializing Easy NPC: Config UI (Fabric-Client) ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Tabs ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] creative mod tabs ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Client Network Handler ...
+[15:34:39] [Render thread/INFO]: Registering network messages for CLIENT side ...
+[15:34:39] [Render thread/INFO]: Registering client network handler ...
+[15:34:39] [Render thread/INFO]: Registering server network handler ...
+[15:34:39] [Render thread/INFO]: Registering server network handler for Client -> Server messages.
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Server Network Message Handler ...
+[15:34:39] [Render thread/INFO]: 🗣 [Easy NPC: Config UI] [Register] Client Screens ...
+[15:34:39] [NativeMedia-prewarm/INFO]: Native media pipeline active: .\dreamdisplays\native\windows-x64\dreamdisplays_native.dll.
+[15:34:39] [Render thread/INFO]: [ETF]: Modifying ETF Render State constructor because: for EMF
+[15:34:39] [Render thread/INFO]: Loading Entity Model Features, your third cousin's, dog's, previous owner's, uncle's, old boss's, fifth favourite mod!
+[15:34:39] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features
+[15:34:39] [Render thread/INFO]: Loading Entity Texture Features, now available for Terraria!
+[15:34:39] [Render thread/INFO]: Eunomia client initialized
+[15:34:39] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[15:34:39] [Render thread/INFO]: [Flashback Settings] initialized on fabric 26.3 — replay folder override: (default) (telemetry=true)
+[15:34:39] [FFmpeg-prewarm/INFO]: FFmpeg optional filters available: [scale_vaapi, scale_cuda].
+[15:34:40] [NativeMedia-prewarm/INFO]: In-process libav backend available: .\dreamdisplays\native\windows-x64\dreamdisplays_lav.dll.
+[15:34:40] [Render thread/INFO]: Loaded config fzzy_config:keybinds in 732ms
+[15:34:40] [Render thread/INFO]: Checking mod updates...
+[15:34:40] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[15:34:40] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[15:34:40] [Render thread/INFO]: MultiView loaded — addon pour Flashback, merge de replays multi-joueurs.
+[15:34:40] [Render thread/INFO]: [MultiView] MergeUi registered (multi-select row merge, MC 26.1+ variant).
+[15:34:40] [Render thread/INFO]: [MultiView] telemetry enabled (pseudonymous, opt-out via /mv telemetry off).
+[15:34:40] [Render thread/INFO]: [AutoUpdate] updater already running (host mod: flashbacksettings), staying dormant
+[15:34:41] [Render thread/INFO]: [STDOUT]: [OnlyJugs] Client initialized.
+[15:34:41] [Render thread/INFO]: Loaded config :particle_core_config in 78ms
+[15:34:41] [DefaultDispatcher-worker-1/INFO]: yt-dlp fast path active: python yt-dlp.pyz.
+[15:34:41] [Render thread/INFO]: [PatPat/Client]: PatPat Client Initialized
+[15:34:41] [Render thread/INFO]: Player Revive: Force death uses HUD button (Shift key removed)
+[15:34:41] [Render thread/INFO]: [REI] Registered plugin provider ClientREIPlugin [farmersdelight] for REIClientPlugin
+[15:34:41] [Render thread/INFO]: [REI] Registered plugin provider ModREIClientPlugin [kaleidoscope_cookery] for REIClientPlugin
+[15:34:41] [Render thread/INFO]: [REI] Registered plugin provider ModREIClientPlugin [kaleidoscope_tavern] for REIClientPlugin
+[15:34:41] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[15:34:41] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[15:34:41] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[15:34:41] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[15:34:41] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[15:34:41] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:sync_displays
+[15:34:41] [Render thread/INFO]: Initializing Saro's Road Signs Mod Client
+[15:34:41] [Render thread/INFO]: Loaded config from: C:\Users\Neyer_\curseforge\minecraft\Instances\Chaos\config\sdrp-client.json5
+[15:34:41] [Render thread/INFO]: Initializing Spatial GUI
+[15:34:41] [Render thread/INFO]: Deserializing SpatialGUIConfig from 'C:\Users\Neyer_\curseforge\minecraft\Instances\Chaos\config\spatial-gui.json5'
+[15:34:41] [Render thread/INFO]: Loaded 1 profile(s)
+[15:34:41] [Render thread/INFO]: [STDOUT]: [TRender] Initializing Client...
+[15:34:41] [Render thread/INFO]: Vitrail 0.13.0-beta starting on Fabric 0.20.1, Minecraft 26.3
+[15:34:41] [Render thread/INFO]: [voicechat] Initializing Opus
+[15:34:41] [Render thread/INFO]: [voicechat] Successfully initialized Opus
+[15:34:41] [Render thread/INFO]: [voicechat] Initializing RNNoise
+[15:34:41] [Render thread/INFO]: [voicechat] Successfully initialized RNNoise
+[15:34:41] [Render thread/INFO]: [voicechat] Initializing Speex
+[15:34:41] [Render thread/INFO]: [voicechat] Successfully initialized Speex
+[15:34:41] [Render thread/INFO]: [voicechat] Initializing LAME
+[15:34:41] [Render thread/INFO]: [voicechat] Successfully initialized LAME
+[15:34:41] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[15:34:41] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\Neyer_\curseforge\minecraft\Instances\Chaos\config\yacl.json5'
+[15:34:42] [Download-1/INFO]: Update available for 'betterblockentities@1.3.9+mc26.3', (-> 1.4.1+mc26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'armor-hider@0.14.6+26.3', (-> fab-26.3-0.15.0)
+[15:34:42] [Download-1/INFO]: Update available for 'entityculling@1.11.3', (-> 1.12.1)
+[15:34:42] [Download-1/INFO]: Update available for 'easy_npc@7.18.0', (-> 7.20.0)
+[15:34:42] [Download-1/INFO]: Update available for 'architectury@22.0.5', (-> 22.0.6+fabric)
+[15:34:42] [Download-1/INFO]: Update available for 'spatial_gui@1.11.1', (-> 1.12.0-fabric+26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'flashbackextras@1.3.0', (-> 1.3.3)
+[15:34:42] [Download-1/INFO]: Update available for 'easy_npc_config_ui@7.18.0', (-> 7.20.0)
+[15:34:42] [Download-1/INFO]: Update available for 'easy_npc_bundle@7.18.0', (-> 7.20.0)
+[15:34:42] [Download-1/INFO]: Update available for 'collective@8.85', (-> 26.3.0-8.87-fabric+forge+neo)
+[15:34:42] [Download-1/INFO]: Update available for 'placeholder-api@3.1.0-beta.1+26.2', (-> 3.2.0+26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'diorama@0.10.2+26.3', (-> 0.11.0+26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'dreamdisplays@1.10.9', (-> 1.10.10)
+[15:34:42] [Download-1/INFO]: Update available for 'audioplayer@2.5.1+26.3', (-> fabric-2.5.2+26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'sodium@0.9.2+mc26.3', (-> mc26.3-0.9.3-fabric)
+[15:34:42] [Download-1/INFO]: Update available for 'waystones@26.3.0.2', (-> 26.3.0.3+fabric-26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'lithium@0.26.3+mc26.3', (-> mc26.3-0.26.4-fabric)
+[15:34:42] [Download-1/INFO]: Update available for 'kaleidoscope_tavern@1.2.0.14-fabric+mc26.3', (-> 1.2.0.15-fabric+mc26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'kaleidoscope_cookery@1.6.0.8-fabric+mc26.3', (-> 1.6.0.9-fabric+mc26.3)
+[15:34:42] [Download-1/INFO]: Update available for 'creativecore@2.14.24', (-> 2.14.25)
+[15:34:42] [autoupdate-worker/INFO]: [AutoUpdate] check completed: 102 jars scanned, 84 matched on Modrinth, 0 update(s) staged (2387 ms)
+[15:34:44] [Render thread/INFO]: Backend library: LWJGL version 3.4.3-snapshot
+[15:34:44] [Render thread/INFO]: SDL [SYSTEM]: App name: Minecraft
+[15:34:44] [Render thread/INFO]: SDL [SYSTEM]: App version: 26.3
+[15:34:44] [Render thread/INFO]: SDL [SYSTEM]: App ID: com.mojang.minecraft
+[15:34:44] [Render thread/INFO]: SDL [SYSTEM]: SDL revision: SDL-3.4.14-62f10da
+[15:34:45] [Render thread/INFO]: Enabling optional FeatureSet [AMD Buffer Marker]
+[15:34:45] [Render thread/INFO]: Optional FeatureSet [NV Diagnostic Checkpoint] supported but device condition failed and will not be enabled
+[15:34:45] [Render thread/INFO]: Enabling optional FeatureSet [Calibrated Timestamps]
+[15:34:45] [Render thread/INFO]: Enabling optional FeatureSet [EXT MultiDraw]
+[15:34:45] [Render thread/INFO]: Enabling optional FeatureSet [Wireframe]
+[15:34:45] [Render thread/INFO]: Vulkan vendor extensions: VK_NV_shader_subgroup_partitioned
+[15:34:45] [Render thread/INFO]: Vulkan device features: vertexPipelineStoresAndAtomics, fragmentStoresAndAtomics, shaderStorageImageExtendedFormats, shaderStorageImageWriteWithoutFormat, independentBlend, geometryShader, shaderFloat16, shaderInt8, shaderInt16, shaderSubgroupExtendedTypes, storageBuffer16BitAccess, uniformAndStorageBuffer16BitAccess, storageBuffer8BitAccess, uniformAndStorageBuffer8BitAccess
+[15:34:45] [Render thread/INFO]: Using graphics backend Vulkan, using drivers: 1.4.357 NVIDIA 621.24
+[15:34:45] [Render thread/INFO]: Using graphics device: NVIDIA GeForce RTX 5070 (NVIDIA)
+[15:34:45] [Render thread/INFO]: Using graphics device extensions: VK_EXT_calibrated_timestamps (D), VK_KHR_synchronization2 (D), VK_EXT_multi_draw (D), VK_AMD_buffer_marker (D), VK_EXT_vertex_attribute_divisor (D), VK_KHR_win32_surface (I), VK_KHR_swapchain (D), VK_KHR_surface (I), VK_KHR_push_descriptor (D), VK_EXT_debug_utils (I), VK_KHR_dynamic_rendering (D)
+[15:34:45] [Render thread/INFO]: Created window using SDL video driver: windows
+[15:34:45] [Render thread/INFO]: Exclusive target 1920x1080@143.98 (24bit) on monitor LC24RG50[0x00000001](1920x1080@143.98 (24bit) at (0,0))
+[15:34:46] [Render thread/WARN]: Missing metadata in pack file/resourcepacks.zip
+[15:34:48] [Render thread/INFO]: Reloading ResourceManager: vanilla, vanilla, a-little-furniture-mod, accurateblockplacement, armor-hider, arsenal_textures, audioplayer, automobility, badoptimizations, baguettelib, balm, betterblockentities, betterf3, bobby, bobbyshare, bridgingmod, camerapture, chaoschatplus, chaosranks, chaostablist, chat_heads, cinematic_respawn, cloth-config, collective, conditional-mixin, configlibtxf, continuity, controllable, creativecore, diorama, displaydelight, dreamdisplays, dungeonconfig, easy_npc, easy_npc_config_ui, ee, emotecraft, entity_model_features, entity_texture_features, entityculling, eunomia, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingtree, farmersdelight, flashback, flashbackextras, flashbacksettings, forgeconfigapiport, framework, fzzy_config, kaleidoscope_cookery, kaleidoscope_end, kaleidoscope_nether, kaleidoscope_tavern, kuma_api, lattice, lithium, mctabletop, mcwpaintings, mezz_config, modmenu, multiview, onlyjugs, org_apache_commons_commons-math3, particle_core, particular, patpat, placeholder-api, player-revive, player_animation_library, polytone, punchy, punchy_expressions, punchy_moves, relics_textures, roughlyenoughitems, roulettecasino, rusticdelight, saros_construction_mod, saros_road_blocks_mod, saros_road_signs_mod, sarosneonblocks, sdrp, shogi, shulkerboxtooltip, simplevoiceanimations, sodium, spatial_gui, tapestry, thatmakessense, trender, vitrail, voicechat, walljump, waystones, wbcustomizer, weatherglass, yet_another_config_lib_v3, zoomify, file/Patrix_26.3_128x_addon.zip, file/Patrix_26.3_128x_basic.zip, file/Patrix_26.3_128x_items.zip, file/Patrix_26.3_128x_mobs.zip
+[15:34:48] [Worker-Main-5/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[15:34:48] [Worker-Main-3/INFO]: Found unifont_pua-17.0.01.hex, loading
+[15:34:48] [Worker-Main-5/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[15:34:48] [Worker-Main-7/WARN]: Unknown 'layer' value 'cutout_mipped' in file 'minecraft:optifine/ctm/patrix/sculk/0_catalyst/sculk_catalyst_bottom.properties' in pack 'file/Patrix_26.3_128x_addon.zip'
+[15:34:48] [Worker-Main-7/WARN]: Unknown 'layer' value 'cutout_mipped' in file 'minecraft:optifine/ctm/patrix/sculk/0_catalyst/sculk_catalyst_side.properties' in pack 'file/Patrix_26.3_128x_addon.zip'
+[15:34:49] [Render thread/INFO]: [EMF]: EMF did not find the Iris API, disabling shadow pass detection
+[15:34:49] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Client data folders ...
+[15:34:50] [Worker-Main-9/WARN]: Unused frames in sprite kaleidoscope_tavern:block/deco/painting/tartaric_acid: [2]
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=c3ed6254-b84e-3963-a2c0-a5a81d201a62, skinModel=ALLAY, subType='ALLAY', resourceName='allay_template.png'} with image NativeImage[RGBA 32x32@2239171002368S] with minecraft:easy_npc_client_texture_allay_c3ed6254-b84e-3963-a2c0-a5a81d201a62.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=dd9e7b53-35bf-3ccc-86d5-8494402e394b, skinModel=CAT, subType='CAT', resourceName='cat_template.png'} with image NativeImage[RGBA 64x32@2241532198912S] with minecraft:easy_npc_client_texture_cat_dd9e7b53-35bf-3ccc-86d5-8494402e394b.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=3b5e083d-8b48-33d6-8f3c-85ab1ebb9b84, skinModel=CHICKEN, subType='CHICKEN', resourceName='chicken_template.png'} with image NativeImage[RGBA 64x32@2241532526592S] with minecraft:easy_npc_client_texture_chicken_3b5e083d-8b48-33d6-8f3c-85ab1ebb9b84.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=eb88a682-c540-3121-acc3-e0db95510aed, skinModel=CREEPER, subType='CREEPER', resourceName='creeper_template.png'} with image NativeImage[RGBA 64x32@2241532264448S] with minecraft:easy_npc_client_texture_creeper_eb88a682-c540-3121-acc3-e0db95510aed.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=a7e321fe-1535-3095-aa13-0a79244178f2, skinModel=FAIRY, subType='FAIRY', resourceName='fairy_template.png'} with image NativeImage[RGBA 128x128@2241533775488S] with minecraft:easy_npc_client_texture_fairy_a7e321fe-1535-3095-aa13-0a79244178f2.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=e2e70d22-0013-30a8-bd05-3312a90011ec, skinModel=FOX, subType='FOX', resourceName='fox_template.png'} with image NativeImage[RGBA 48x32@2245512200192S] with minecraft:easy_npc_client_texture_fox_e2e70d22-0013-30a8-bd05-3312a90011ec.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=8fe62f6d-6af6-3514-a5a9-dce4fe4373a3, skinModel=ENDER_MAN, subType='ENDER_MAN', resourceName='ender_man_template.png'} with image NativeImage[RGBA 64x32@2241532329984S] with minecraft:easy_npc_client_texture_ender_man_8fe62f6d-6af6-3514-a5a9-dce4fe4373a3.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=8b30b738-461f-30c4-8cd2-10a94b202cdf, skinModel=HUMANOID_SLIM, subType='HUMANOID_SLIM', resourceName='humanoid_slim_template.png'} with image NativeImage[RGBA 64x64@2241533445120S] with minecraft:easy_npc_client_texture_humanoid_slim_8b30b738-461f-30c4-8cd2-10a94b202cdf.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=0a2b92c8-d54b-36dc-9352-7e054e081f0c, skinModel=HUMANOID, subType='HUMANOID', resourceName='humanoid_template.png'} with image NativeImage[RGBA 64x64@2245517117376S] with minecraft:easy_npc_client_texture_humanoid_0a2b92c8-d54b-36dc-9352-7e054e081f0c.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=22071a2b-ebc4-32f4-b59b-057dbd16be0a, skinModel=HUSK, subType='HUSK', resourceName='husk_template.png'} with image NativeImage[RGBA 64x64@2245517969856S] with minecraft:easy_npc_client_texture_husk_22071a2b-ebc4-32f4-b59b-057dbd16be0a.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=617322a7-89fc-358d-8c3d-bb3e4da80ece, skinModel=ILLAGER, subType='ILLAGER', resourceName='illager_template.png'} with image NativeImage[RGBA 64x64@2245520261504S] with minecraft:easy_npc_client_texture_illager_617322a7-89fc-358d-8c3d-bb3e4da80ece.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=ff8e17aa-51b0-35a3-a60d-7d789c27e837, skinModel=IRON_GOLEM, subType='IRON_GOLEM', resourceName='iron_golem_template.png'} with image NativeImage[RGBA 128x128@2245522427200S] with minecraft:easy_npc_client_texture_iron_golem_ff8e17aa-51b0-35a3-a60d-7d789c27e837.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=d1a5421d-4241-3209-ae8a-d578a7bfe15f, skinModel=ORC, subType='ORC', resourceName='orc_template.png'} with image NativeImage[RGBA 128x128@2245525243648S] with minecraft:easy_npc_client_texture_orc_d1a5421d-4241-3209-ae8a-d578a7bfe15f.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=1ad7df8e-fd8e-37ba-aeae-c7fa18c49a1d, skinModel=PIG, subType='PIG', resourceName='pig_template.png'} with image NativeImage[RGBA 64x64@2245522231040S] with minecraft:easy_npc_client_texture_pig_1ad7df8e-fd8e-37ba-aeae-c7fa18c49a1d.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=53afd629-8964-35a8-bb66-7d64359d6eee, skinModel=PIGLIN, subType='PIGLIN', resourceName='piglin_template.png'} with image NativeImage[RGBA 64x64@2245530488192S] with minecraft:easy_npc_client_texture_piglin_53afd629-8964-35a8-bb66-7d64359d6eee.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=99b88725-4c39-3e23-8b8c-ed8cd073aeb7, skinModel=SKELETON, subType='SKELETON', resourceName='skeleton_template.png'} with image NativeImage[RGBA 64x32@2241532395520S] with minecraft:easy_npc_client_texture_skeleton_99b88725-4c39-3e23-8b8c-ed8cd073aeb7.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=eea66b65-2292-3db1-a42c-c26e446c84f2, skinModel=SPIDER, subType='SPIDER', resourceName='spider_template.png'} with image NativeImage[RGBA 64x32@2241532461056S] with minecraft:easy_npc_client_texture_spider_eea66b65-2292-3db1-a42c-c26e446c84f2.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=b1cf096a-0299-315f-a41c-84d807315650, skinModel=VEX, subType='VEX', resourceName='vex_template.png'} with image NativeImage[RGBA 32x32@2245503614976S] with minecraft:easy_npc_client_texture_vex_b1cf096a-0299-315f-a41c-84d807315650.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=0e515082-1396-3a68-8959-79846eeb0d96, skinModel=VILLAGER, subType='VILLAGER', resourceName='villager_template.png'} with image NativeImage[RGBA 64x64@2245541102016S] with minecraft:easy_npc_client_texture_villager_0e515082-1396-3a68-8959-79846eeb0d96.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=44c87ffb-a92c-336b-b3b4-bee539e9d303, skinModel=VILLAGER, subType='VILLAGER', resourceName='villager_without_hat_template.png'} with image NativeImage[RGBA 64x64@2245543398272S] with minecraft:easy_npc_client_texture_villager_44c87ffb-a92c-336b-b3b4-bee539e9d303.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=7d6915e2-c89f-3116-b884-46932a3e8b6f, skinModel=WITCH, subType='WITCH', resourceName='witch_template.png'} with image NativeImage[RGBA 64x128@2241532657728S] with minecraft:easy_npc_client_texture_witch_7d6915e2-c89f-3116-b884-46932a3e8b6f.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=fc13cd6c-6249-3591-9161-346b87daeefb, skinModel=WOLF, subType='WOLF', resourceName='wolf_template.png'} with image NativeImage[RGBA 64x32@2245537431552S] with minecraft:easy_npc_client_texture_wolf_fc13cd6c-6249-3591-9161-346b87daeefb.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=70d6fde8-652d-36e1-a005-45e67a679eda, skinModel=ZOMBIE_VILLAGER, subType='ZOMBIE_VILLAGER', resourceName='zombie_villager_template.png'} with image NativeImage[RGBA 64x64@2245553815616S] with minecraft:easy_npc_client_texture_zombie_villager_70d6fde8-652d-36e1-a005-45e67a679eda.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=f14e7212-e76d-376d-ba9e-7776d0d70850, skinModel=ZOMBIE, subType='ZOMBIE', resourceName='zombie_template.png'} with image NativeImage[RGBA 64x64@2245556109568S] with minecraft:easy_npc_client_texture_zombie_f14e7212-e76d-376d-ba9e-7776d0d70850.
+[15:34:51] [Render thread/INFO]: [Texture Registration Helper] Registered texture TextureModelKey{uuid=ef5a0851-8da6-37b9-88ac-47e2c21c3442, skinModel=STRAY, subType='STRAY', resourceName='stray_template.png'} with image NativeImage[RGBA 64x64@2245561877248S] with minecraft:easy_npc_client_texture_stray_ef5a0851-8da6-37b9-88ac-47e2c21c3442.
+[15:34:51] [Render thread/INFO]: 🗣 [Easy NPC: Core] Register Registering Entity Type Manager ...
+[15:34:51] [Render thread/INFO]: [Entity Type Manager] Config loaded with 741 supported and 261 unsupported entity types.
+[15:34:51] [Render thread/INFO]: [Entity Type Manager] Found 65 supported, 4 unsupported, 17 unknown and 165 auto-filtered entity types.
+[15:34:51] [Render thread/INFO]: [TestHarness] no .multiview-test.json found — dormant.
+[15:34:51] [Render thread/INFO]: Setting up discord client
+[15:34:51] [SDRP-Discord-RPC-Thread/INFO]: [STDOUT]: CLIENT ID:::::::
+[15:34:51] [SDRP-Discord-RPC-Thread/INFO]: [STDOUT]: 608012526537408579
+[15:34:51] [Worker-Main-11/INFO]: Modules compiled without debug info, property=vitrail.shaderDebugInfo
+[15:34:51] [Render thread/INFO]: Waystones is installed: showing known waystones on the map
+[15:34:51] [SDRP-Discord-RPC-Thread/INFO]: Found preferred client: ANY
+[15:34:51] [SDRP-Discord-RPC-Thread/INFO]: Discord client ready
+[15:34:51] [Worker-Main-14/WARN]: Texture roulettecasino:block/plinko_sign with size 304x40 limits mip level from 4 to 3
+[15:34:51] [Worker-Main-14/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[15:34:53] [Render thread/INFO]: Module cache: 59 units served, 349 built by the compiler, 59 and 349 since this launch, 170.3 MB in C:\Users\Neyer_\curseforge\minecraft\Instances\Chaos\vitrail\modules\0.13.0-beta+mc26.3
+[15:34:53] [Render thread/INFO]: The 349 built this load begin with: minecraft_core_sky, minecraft_core_terrain, minecraft_core_sky, minecraft_core_terrain, minecraft_core_rendertype_crumbling, minecraft_core_item, minecraft_core_entity, minecraft_core_clouds, minecraft_core_rendertype_crumbling, minecraft_core_entity, minecraft_core_item, minecraft_core_clouds
+[15:34:53] [Render thread/INFO]: Uninitialised variables given their zero: 0 values in 0 of the 0 pack modules walked (349 modules built this load in all, the rest served already zeroed), which is the default. vitrail/raw-locals would leave them raw, and this line is said either way so that a reading can name the state it was taken under
+[15:34:53] [Render thread/INFO]: Debug names dropped off what the outside never asks for: 0 names in 0 of the 0 pack modules walked (349 modules built this load in all, the rest served already stripped), which is the default. -Dvitrail.shaderDebugInfo would leave them in, and this line is said either way so that a reading can name the state it was taken under
+[15:34:53] [Render thread/INFO]: Samplers bound from what a module reaches: 0 dropped across 0 of the 0 pack modules walked (349 modules built this load in all, the game's and Sodium's among them)
+[15:34:54] [Worker-Main-14/WARN]: Missing block model: minecraft:block/snow
+[15:34:54] [Worker-Main-5/WARN]: Unresolved texture references in saros_road_blocks_mod:block/main/asphalt:
+	#bottom-> #top
+
+[15:34:54] [Worker-Main-8/WARN]: Unresolved texture references in saros_road_blocks_mod:block/corner_straight/asphalt_corner_straight:
+	#bottom-> #top
+
+[15:34:56] [Worker-Main-11/WARN]: Unresolved texture references in saros_road_blocks_mod:item/asphalt:
+	#bottom-> #top
+
+[15:34:56] [Worker-Main-11/WARN]: Unresolved texture references in minecraft:item/generated:
+	#particle-> #layer0
+
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/watering_can:
+    kaleidoscope_nether:item/watering_can
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/warnbarke:
+    saros_road_signs_mod:items/bod-verkehrszeichen-leitbake-aluminium-reflexionsklasse-ra1-rechtsweisend
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/warped_conny:
+    kaleidoscope_nether:item/warped_conny
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/crimson_buff:
+    kaleidoscope_nether:item/crimson_buff
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/fussplatte:
+    saros_road_signs_mod:blocks/download
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/star_blessing_buff:
+    kaleidoscope_nether:item/star_blessing_buff
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/brush_ecke:
+    saros_road_signs_mod:items/ds
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/cooked_ghast_meat:
+    kaleidoscope_nether:item/cooked_ghast_meat
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/luosi_noodles:
+    kaleidoscope_nether:item/luosi_noodles
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/soul_brandy:
+    kaleidoscope_nether:item/soul_brandy
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/ghost_buff:
+    kaleidoscope_nether:item/ghost_buff
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/warn_barke_ohne_licht:
+    saros_road_signs_mod:items/bod-verkehrszeichen-leitbake-aluminium-reflexionsklasse-ra1-rechtsweisend
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/brush_linie:
+    saros_road_signs_mod:items/ds
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/poisonous_bucket:
+    kaleidoscope_nether:item/poisonous_bucket
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/asphalt:
+    saros_road_signs_mod:blocks/asphalt
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/lines_turner:
+    saros_road_signs_mod:items/download_1
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/ham_fried_rice:
+    kaleidoscope_nether:item/ham_fried_rice
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/brush_abzweigung:
+    saros_road_signs_mod:items/ds
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/crimson_hail:
+    kaleidoscope_nether:item/crimson_hail
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/asphalt_lienie_2:
+    saros_road_signs_mod:blocks/asphalt
+    saros_road_signs_mod:blocks/asphalt_-_ecke
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/warped_bucket:
+    kaleidoscope_nether:item/warped_bucket
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/golden_plate:
+    kaleidoscope_nether:item/golden_plate
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/brush_schreg:
+    saros_road_signs_mod:items/ds
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/warped_buff:
+    kaleidoscope_nether:item/warped_buff
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/mysterious_poison:
+    kaleidoscope_nether:item/mysterious_poison
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/magma_bubble:
+    kaleidoscope_nether:item/magma_bubble
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/blazing_buff:
+    kaleidoscope_nether:item/blazing_buff
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model kaleidoscope_nether:item/jiangxi_mixed_noodles:
+    kaleidoscope_nether:item/jiangxi_mixed_noodles
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/asphalt_linie_1:
+    saros_road_signs_mod:blocks/asphalt
+    saros_road_signs_mod:blocks/asphalt_-_grade_
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/sponge:
+    saros_road_signs_mod:items/wet_sponge
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/asphalt_linie_3:
+    saros_road_signs_mod:blocks/asphalt
+    saros_road_signs_mod:blocks/asphalt_-_abbiegung_
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/brush:
+    saros_road_signs_mod:items/ds
+[15:34:57] [Worker-Main-3/WARN]: Missing textures in model saros_road_signs_mod:item/asphalt_linie_4:
+    saros_road_signs_mod:blocks/asphalt
+    saros_road_signs_mod:blocks/asphalt_-_schreg
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/calibrated_sculk_sensor_inactive:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_empty_slot_top_right:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_7_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_2_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_14_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:item/spyglass_in_hand:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model camerapture:item/camera:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_occupied_slot_top_right:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_8_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_empty_slot_bottom_left:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_1_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_empty_slot_top_left:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_13_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side_alt1_2:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_3_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_12_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side1:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side0:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side0_2:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_9_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_15_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_up:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_empty_slot_bottom_right:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_6_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_nether:chopping_board/ham/0:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_occupied_slot_top_left:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_4_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_nether:chopping_board/ham/5:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/bamboo_fence_side:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_nether:chopping_board/ham/1:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_nether:chopping_board/ham/2:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_nether:chopping_board/ham/3:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_nether:chopping_board/ham/4:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_empty_slot_top_mid:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_5_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_up_2:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side_alt1:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side_alt0:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side_alt0_2:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_10_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/calibrated_sculk_sensor_active:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/bamboo_fence_inventory:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_construction_mod:block/barrier_light_connected:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:item/generated:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/chiseled_bookshelf_occupied_slot_top_mid:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/grass_extra1b:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/grass_extra1a:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model saros_road_blocks_mod:block/ohat/asphalt_11_ohat:
+    #5
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model kaleidoscope_tavern:item/barrel:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing texture references in model minecraft:block/redstone_dust_side1_2:
+    particle
+[15:34:57] [Worker-Main-3/WARN]: Missing model for variant: 'Block{saros_road_signs_mod:custom_sign}[facing=north]'
+[15:34:57] [Worker-Main-3/WARN]: Missing model for variant: 'Block{saros_road_signs_mod:custom_sign}[facing=south]'
+[15:34:57] [Worker-Main-3/WARN]: Missing model for variant: 'Block{saros_road_signs_mod:custom_sign}[facing=west]'
+[15:34:57] [Worker-Main-3/WARN]: Missing model for variant: 'Block{saros_road_signs_mod:custom_sign}[facing=east]'
+[15:35:14] [Render thread/INFO]: Pipeline purge: 0 pipelines of the pack held, 0 carried over it, property=vitrail.keepPackAcrossReload
+[15:35:14] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Głośniki (High Definition Audio Device)
+[15:35:14] [Render thread/INFO]: Sound engine started
+[15:35:14] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[15:35:14] [Render thread/INFO]: Created: 4096x2048x0 minecraft:textures/atlas/celestials.png-atlas
+[15:35:14] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:35:14] [Render thread/INFO]: The resource pack answers normals for 25 of the 76 sprites of minecraft:textures/atlas/decorated_pot.png
+[15:35:14] [Render thread/INFO]: The resource pack answers specular for 25 of the 76 sprites of minecraft:textures/atlas/decorated_pot.png
+[15:35:14] [Render thread/INFO]: Created: 4096x4096x0 minecraft:textures/atlas/paintings.png-atlas
+[15:35:14] [Render thread/INFO]: Created: 8192x8192x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:35:14] [Render thread/INFO]: The resource pack answers normals for 45 of the 136 sprites of minecraft:textures/atlas/shield_patterns.png
+[15:35:14] [Render thread/INFO]: The resource pack answers specular for 45 of the 136 sprites of minecraft:textures/atlas/shield_patterns.png
+[15:35:14] [Render thread/INFO]: Created: 8192x8192x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:35:14] [Render thread/INFO]: The resource pack answers normals for 44 of the 149 sprites of minecraft:textures/atlas/banner_patterns.png
+[15:35:14] [Render thread/INFO]: The resource pack answers specular for 44 of the 149 sprites of minecraft:textures/atlas/banner_patterns.png
+[15:35:14] [Render thread/INFO]: Created: 32768x32768x3 minecraft:textures/atlas/blocks.png-atlas
+[15:35:26] [Render thread/INFO]: The resource pack answers normals for 12140 of the 18869 sprites of minecraft:textures/atlas/blocks.png
